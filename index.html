@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      type="image/png"
+      sizes="16x16"
+      rel="icon"
+      href="assets/icons8-sakura-flower-64.png"
+    />
+    <title>sakura - weather app</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <h1>SAKURA</h1>
+        <img
+          width="50"
+          height="50"
+          src="https://img.icons8.com/external-filled-line-andi-nur-abdillah/64/external-Sakura-Flower-sakura-festival-(filled-line)-filled-line-andi-nur-abdillah.png"
+          alt="external-Sakura-Flower-sakura-festival-(filled-line)-filled-line-andi-nur-abdillah"
+        />
+      </div>
+
+      <form>
+        <input type="text" name="" id="city-input" placeholder="Enter City" />
+        <input type="submit" value="Get Weather" />
+      </form>
+      <div id="weather-data">
+        <div class="icon">
+          <!-- <img
+            src="http://openweathermap.org/img/wn/01d.png"
+            alt="Weather Icon"
+          /> -->
+        </div>
+        <div class="temperature"></div>
+        <div class="description"></div>
+        <div class="details">
+          <!-- <div>Feels like : 23c</div>
+          <div>Humdity: 40%</div>
+          <div>Wind Speed : 5m/s</div> -->
+        </div>
+      </div>
+    </div>
+    <!-- js linking -->
+    <script src="index.js"></script>
+  </body>
+</html>
